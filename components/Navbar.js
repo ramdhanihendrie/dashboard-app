@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Header() {
+function Navbar() {
   return (
     <header className='h-14 bg-gradient-to-r from-sky-500 to-indigo-500 text-white	'>
       <div className='flex container mx-auto py-2'>
@@ -12,4 +12,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Navbar
