@@ -1,7 +1,7 @@
-import { data } from 'autoprefixer'
 import Head from 'next/head'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import DataList from '../components/DataList'
 
 const Index = ({ datas }) => {
   return (
@@ -12,7 +12,7 @@ const Index = ({ datas }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-        
+      <DataList datas={datas}/>
       <Footer />
     </div>
   )       
